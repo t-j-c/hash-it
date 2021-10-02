@@ -1,17 +1,17 @@
 name: Upload Website
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/**'
   workflow_dispatch:
     inputs:
       name:
         description: "Upload Website - Manual Trigger"
         required: false
         default: "Upload Website - Manual Trigger"
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
 
 jobs:
   build:
