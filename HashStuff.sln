@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{B7F3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{72F10FA3-ECC7-4AA6-BF25-B7DE7B550B9A}"
 	ProjectSection(SolutionItems) = preProject
-		.github\worklflows\upload-website.yml = .github\worklflows\upload-website.yml
+		.github\workflows\upload-website.yml = .github\workflows\upload-website.yml
 	EndProjectSection
 EndProject
 Global
